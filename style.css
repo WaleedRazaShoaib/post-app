@@ -1,0 +1,77 @@
+@font-face{
+    font-family: "YoungSerif";
+    src: url(font/YoungSerif-Regular.ttf);
+}
+* {
+font-family: "YoungSerif";
+}
+
+.navbar{
+ height: 80px;
+    background-color: #00B3A6 !important;
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color:white;
+}
+
+.btn-primary{
+    background-color:  #00B3A6;
+    border-color:  #00B3A6;
+    
+}
+
+.btn-primary:hover{
+    background-color:  #00B3A6;
+     border-color:  #00B3A6;
+
+}
+
+.btn-primary:active{
+    background-color:  #00B3A6 !important;
+     border-color:  #00B3A6 !important;
+
+}
+
+.swal2-actions{
+    width: 90% !important;  ;
+}
+
+.images-list{
+    justify-content: space-around
+}
+
+/* .card-body{
+    background-image: url(images/img\ 1.jfif);
+background-size: cover;
+} */
+
+
+
+.images-list>img { 
+    width: 40px;
+height: 40px;
+/* border: solid #00B3A6; */
+}
+
+.images-list-selected{
+ border: 3px solid #00B3A6 !important; 
+}
+.swal2-confirm{
+width: 90% !important;
+    background-color:  #00B3A6 !important;
+
+}
+@media only screen and (max-width:500px ){
+    .main{
+        padding: 5px !important;
+    }
+}
+
+
+
+
