@@ -3,9 +3,9 @@ var backgroundImage = "";
 function addpost() {
     var title = document.getElementById("title");
     var description = document.getElementById("description");
+    var posts = document.getElementById("posts");
     // console.log("bgImage", backImage)
     if (title.value.trim() && description.value.trim()) {
-        var posts = document.getElementById("posts");
         posts.innerHTML += `<div class="card mb-2">
 <div class="card-header">
     @POST
@@ -32,7 +32,7 @@ function addpost() {
 }
 
 function selectimage(src) {
-    backgroundImage = src ;
+    backgroundImage = src;
     var bgImage = document.getElementsByClassName("bg-image");
     for (var i = 0; i < bgImage.length; i++) {
         bgImage[i].className = "bg-image";
