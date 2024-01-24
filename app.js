@@ -10,7 +10,7 @@ function addpost() {
 <div class="card-header">
     @POST
 </div>
-<div style = "background-image: url(${backgroundImage})" class="card-body">
+<div  class="card-body">
     <blockquote class="blockquote mb-0">
         <p>${title.value}</p>
         <footer class="blockquote-footer">${description.value}</cite></footer>
@@ -31,11 +31,11 @@ function addpost() {
     }
 }
 
-function selectimage(src) {
-    backgroundImage = src;
-    var bgImage = document.getElementsByClassName("bg-image");
-    for (var i = 0; i < bgImage.length; i++) {
-        bgImage[i].className = "bg-image";
-    }
-    event.target.className += " images-list-selected";
-}
+// function selectimage(src) {
+//     backgroundImage = src;
+//     var bgImage = document.getElementsByClassName("bg-image");
+//     for (var i = 0; i < bgImage.length; i++) {
+//         bgImage[i].className = "bg-image";
+//     }
+//     event.target.className += " images-list-selected";
+// }
